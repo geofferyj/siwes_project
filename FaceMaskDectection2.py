@@ -25,18 +25,8 @@ from tensorflow.keras.optimizers import Adam      #Adam optimizer
 from keras.preprocessing import image             #used for image classification
 from keras.preprocessing.image import ImageDataGenerator  #used to expand the training dataset in order to improve the performance and ability of the model to generalize
 import matplotlib.pyplot as plt                   #library to plot graphs
-from google.colab import files                    #To be able to upload files
 
 """Here I will upload the dataset file called `"data"` that has 2 subfolders `"with"` and `"without`" and unzip"""
-
-#upload file
-uploaded = files.upload()
-
-#unzipping the folder
-!unzip data.zip
-
-#delete the zip file as it is not needed anymore
-!rm data.zip
 
 # setting the batch size and the epochs
 
