@@ -166,6 +166,9 @@ plt.show()
 from IPython.display import Image, display
 TGREEN =  '\033[1;37;42m'
 TRED =    '\033[1;37;41m'
+
+import os
+
 for i in range (1,17):
   img_directory = str(i) + '.jpg'
   img_pred = image.load_img(img_directory, target_size = (70, 70))
