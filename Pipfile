@@ -9,6 +9,8 @@ opencv-python = "*"
 matplotlib = "*"
 pillow = "*"
 scipy = "*"
+sklearn = "*"
+imutils = "*"
 
 [dev-packages]
 ipykernel = "*"
